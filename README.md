@@ -4,11 +4,11 @@ minikube start
 ```
 # Build the Docker image for the Node.js application
 ```SHELL
-docker build -t rujalmhn/assignment3:v1 .
+docker build -t parinaya12/assignment3:v1 .
 ```
 # Push the Docker image to Docker Hub
 ```SHELL
-docker push rujalmhn/assignment3:v1
+docker push parinaya12/assignment3:v1
 ```
 # Apply the ConfigMap to Kubernetes
 ```SHELL
